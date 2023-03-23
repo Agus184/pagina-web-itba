@@ -1,0 +1,31 @@
+
+body{margin: 0px;
+    background-color: blue;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Flanumero12.com.ar%2F2023%2F03%2F15%2Ffoto-real-asi-se-ve-la-nueva-camiseta-alternativa-de-boca%2F&psig=AOvVaw1ympexHdD0vFrhuT0B_jjZ&ust=1679698235844000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPD_3deR8_0CFQAAAAAdAAAAABAJ");
+}
+
+*{
+    
+
+    border: solid red 1px;
+}
+
+
+p{color:blue}
+#parrafo_principal{color:yellow}
+
+.elemento{color: #197c78;}
+
+#primer_id{font-size: large;}
+
+p{color: white}
+p{color: green;}
+
+
+
+#titular{padding-left: 10px;}
+#titular{padding: 10px 0 0 100px;}
+#primer_id{margin: 40px;}
+p{margin: 20px 30px;}
+
+
