@@ -1,2 +1,17 @@
 body{margin: 0px;}
-body{background-color: lightgrey;}
+body{background-color:black}
+p{color: #c8c3c3;}
+
+#busqueda{position: absolute;
+    left: 40%;
+    top: 25%;
+    width: 10cm;
+background-color: black;
+border: 0cm;}
+
+#titulo{color: #c8c3c3}
+
+#footer1{right: 80%;}
+
+
+
