@@ -80,11 +80,20 @@ div.sticky {
 .logo2{
     width: 70px;
     position: absolute;
-    left: 77%;
+    left: 81%;
     bottom: -15%;}
 
 .logo3{
     width: 70px;
     position: absolute;
-    left: 77%;
+    left: 82%;
     bottom: -15%;}
+
+#telefono{
+    position: absolute;
+    text-align: right;
+    left: 85%;
+    bottom: -23%;
+
+
+    }
