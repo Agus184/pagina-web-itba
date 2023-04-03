@@ -57,4 +57,34 @@ p{
     margin-left: 100px;
     text-align: center;}
 
+#button1{
+    padding: 0;
+    margin: 0;}
 
+div.sticky2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0.5px;
+    background-color: #010101;
+    border-top: 0.2px solid #c8c3c3;}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0.5px;
+    background-color: #010101;
+    border-bottom: 0.2px solid #c8c3c3;}
+
+.logo2{
+    width: 70px;
+    position: absolute;
+    left: 77%;
+    bottom: -15%;}
+
+.logo3{
+    width: 70px;
+    position: absolute;
+    left: 77%;
+    bottom: -15%;}
