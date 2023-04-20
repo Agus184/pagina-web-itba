@@ -29,3 +29,18 @@ p{color: green;}
 p{margin: 20px 30px;}
 
 
+#parrafos {
+    display: flex;
+    margin-left: 100px;
+    text-align: center;}
+
+
+div.sticky2 {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 0.5px;
+        background-color: #010101;
+        border-top: 0.2px solid #c8c3c3;}
+    
+
