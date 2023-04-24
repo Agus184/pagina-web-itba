@@ -1,46 +1,46 @@
 
-body{margin: 0px;
-    background-color: light rgb(197, 188, 188);
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Flanumero12.com.ar%2F2023%2F03%2F15%2Ffoto-real-asi-se-ve-la-nueva-camiseta-alternativa-de-boca%2F&psig=AOvVaw1ympexHdD0vFrhuT0B_jjZ&ust=1679698235844000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPD_3deR8_0CFQAAAAAdAAAAABAJ");
-}
 
-*{
-    
+.container {
+    display: grid; 
+    min-height: 100%;
 
-    border: solid red 1px;
-}
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header header header"
+      "main-1 main-1 main2 main2"
+      "footer footer footer footer"; 
+  }
+  .main-1 { grid-area: main-1; }
+  .main2 { grid-area: main2;min-width: 1000px; }
 
-
-p{color:blue}
-#parrafo_principal{color:yellow}
-
-.elemento{color: #197c78;}
-
-#primer_id{font-size: large;}
-
-p{color: white}
-p{color: green;}
-
-
-
-#titular{padding-left: 10px;}
-#titular{padding: 10px 0 0 100px;}
-#primer_id{margin: 40px;}
-p{margin: 20px 30px;}
+  footer { grid-area: footer; 
+    position: absolute
+    ;
+    width: 99%;
+  
+    bottom: 0px ;
+    top: 90%;
+        background-color: aqua;
+    ;}
 
 
-#parrafos {
-    display: flex;
-    margin-left: 100px;
-    text-align: center;}
+
+  header { grid-area: header;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+     }
 
 
-div.sticky2 {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        padding: 0.5px;
-        background-color: #010101;
-        border-top: 0.2px solid #c8c3c3;}
-    
+#titulo {text-align: left;}
+
+
+
+
+
+  
+  
 
