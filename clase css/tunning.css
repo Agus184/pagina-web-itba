@@ -1,0 +1,306 @@
+
+.p{
+  color: black;
+}
+
+header {
+display: flex;
+height: 40px;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+position: fixed;
+background-color: white;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;
+border-bottom: 0.2px solid gray;
+z-index: 9999;
+}
+
+
+.nav {
+display: flex;
+justify-content: space-around;
+margin-right: 50px;
+}
+
+.carrito{
+  height: 30px;
+  top: 15%;
+  position: absolute;
+  left: 95%;
+transition: 300ms;
+}
+
+.carrito:hover{
+transform: scale(1.15);
+}
+
+.usuario{
+position: absolute;
+left: 90%;
+top: 15%;
+height: 30px;
+transition: 300ms;
+}
+
+.usuario:hover{
+transform: scale(1.15);
+}
+
+
+.logo {
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+margin-left: 50px;
+}
+
+
+
+.titulo {
+height: 30px;
+font-size: large;
+top: 15%;
+position: absolute;
+right: 95%;
+color: black;
+}
+
+.hombre {
+  height: 30px;
+  font-size: small;
+  top: 15%;
+  position: absolute;
+  right: 85%;
+  transition: 300ms;
+  color: black;
+  }
+
+.mujer {
+    height: 30px;
+    font-size: small;
+    top: 15%;
+    position: absolute;
+    right: 80%;
+    transition: 300ms;
+    color: black;
+    }
+
+.winter {
+    height: 30px;
+    font-size: small;
+    top: 15%;
+    position: absolute;
+    right: 72%;
+    transition: 300ms;
+    color: black;
+}
+
+.hombre:hover {
+  transform: scale(1.10);
+  }
+
+.winter:hover {
+  transform: scale(1.10);
+  }
+  
+.mujer:hover {
+  transform: scale(1.10);
+  }
+
+
+
+.main-1 {
+  margin-top: 39px;
+  width: 100%;
+}
+
+.main-2 {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  left: 5%;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.main-21 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  }
+
+
+
+.ropa {
+  transition: 300ms;
+
+  }
+
+.ropa:hover{
+  transform: scale(1.01);
+  }
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  width: auto;
+  line-height: 75px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  }
+
+
+
+.flex-box {
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: medium;
+align-items: center;
+justify-content: space-around;
+}
+
+
+
+
+footer { 
+width: 100%;
+bottom: 0px;
+background-color: white;
+border-top: 0.2px solid gray;;
+height: auto ;
+text-align: left;
+}
+
+.titulo2 {
+  text-align: center;
+  font-size: large;
+}
+
+
+.ig{
+position: relative;
+width: 30px;
+bottom: -5%;
+}
+
+.face{
+width: 30px;
+position: relative;
+bottom: -10%;
+}
+
+.wpp {
+position: relative;
+bottom: -5%;
+width: 30px;
+}
+
+.mail{
+position: relative;
+bottom: -10%;
+width: 30px;
+}
+
+.copyright {
+border-top: 0.2px solid gray;
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: small;
+min-height: 30px; 
+width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  #nav{
+    flex-direction: column;
+  }
+
+  .flex-container{
+    flex-direction: column;
+  }
+
+  .copyright {
+    flex-direction: column;
+  }
+
+  .bar-menu {
+    left: 85%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .carrito {
+    left: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .usuario {
+    left: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .ig {
+    margin-bottom: 10px;
+  }
+
+  .wpp {
+    margin-bottom: 10px;
+  }
+
+
+
+
+}
+
+
+.items-row {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  border: 1px solid green;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 300ms;
+
+}
+
+
+
+.item:hover{
+  transform: scale(1.01);
+  }
+
+.caracteristicas {
+  justify-content: space-around;
+  display: flex;
+}
+
+
