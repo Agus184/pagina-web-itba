@@ -32,15 +32,16 @@ justify-content: space-around;
 margin-right: 50px;
 }
 
-.carrito{
+.carrito2{
   height: 30px;
   top: 15%;
   position: absolute;
   left: 95%;
-transition: 300ms;
+  transition: 300ms;
+  background-image: url('./image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png');
 }
 
-.carrito:hover{
+.carrito2:hover{
 transform: scale(1.15);
 }
 
@@ -294,9 +295,7 @@ width: 100%;
 .item {
   display: flex;
   flex-direction: column;
-  text-align: right;
-  margin-left: 5px;
-  margin-right: 5px;
+
   transition: 300ms;
 
 }
