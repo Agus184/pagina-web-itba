@@ -33,7 +33,9 @@ margin-right: 50px;
 }
 
 .carrito2{
-  height: 30px;
+  background-position: center;
+  background-size: cover;
+  padding: 15px;
   top: 15%;
   position: absolute;
   left: 95%;
