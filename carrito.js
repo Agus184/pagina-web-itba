@@ -1,11 +1,11 @@
 var cart = [];
-var addCartButtons = document.getElementsByClassName('agregar-carrito');
-for (var i = 0; i < addCartButtons.length; i++) {
-    addCartButtons[i].addEventListener('click', addProductToCart);
+var addCart = document.getElementsByClassName('agregar-carrito');
+for (var i = 0; i < addCart.length; i++) {
+    addCart[i].addEventListener('click', addProductToCart);
 }
 
-var botonVaciar = document.getElementById('boton-vaciar');
-botonVaciar.addEventListener('click', vaciarCarrito);
+var Vaciar = document.getElementById('boton-vaciar');
+Vaciar.addEventListener('click', vaciarCarrito);
 
 window.addEventListener('load', loadCartFromStorage);
 
@@ -70,3 +70,8 @@ function calcularTotal() {
     var totalElemento = document.getElementById('total');
     totalElemento.innerText = total;
 }
+
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
