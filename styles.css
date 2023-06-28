@@ -5,10 +5,6 @@
 
 }
 
-
-
-
-
 header {
 display: flex;
 height: 40px;
@@ -41,23 +37,12 @@ margin-right: 50px;
   left: 95%;
   transition: 300ms;
   background-image: url('./image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png');
-}
+  }
 
 .carrito2:hover{
-transform: scale(1.15);
-}
+  transform: scale(1.15);
+  }
 
-.usuario{
-position: absolute;
-left: 90%;
-top: 15%;
-height: 30px;
-transition: 300ms;
-}
-
-.usuario:hover{
-transform: scale(1.15);
-}
 
 
 .logo {
@@ -142,13 +127,11 @@ left: -30%;
 
 }
 
-.main-21 {
-  margin-top: 10px;
+.main-2-2 {
+
   margin-bottom: 10px;
-  width: 100%;
 
-  }
-
+}
 
 
 .ropa {
@@ -238,8 +221,72 @@ width: 100%;
 }
 
 
+.items-row {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.item {
+  display: flex;
+  flex-direction: column;
+
+  transition: 300ms;
+
+}
+
+
+
+.item:hover{
+  transform: scale(1.01);
+  }
+
+.caracteristicas {
+  justify-content: space-around;
+  display: flex;
+}
+
+
+.compra {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.terminar-compra{
+  display: flex;
+  justify-content: center;
+}
+
+
+.portada {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: -6px;
+}
+
+.texto-encima{   
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+
 @media only screen and (max-width: 600px) {
 
+  .header {
+    z-index: 999999;
+
+  }
   #nav{
     flex-direction: column;
   }
@@ -303,53 +350,17 @@ width: 100%;
     justify-content: center;
   }
 
-
-
-
-}
-
-
-.items-row {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-.item {
-  display: flex;
-  flex-direction: column;
-
-  transition: 300ms;
-
-}
-
-
-
-.item:hover{
-  transform: scale(1.01);
+  .portada {
+    margin-top: 40px;
   }
 
-.caracteristicas {
-  justify-content: space-around;
-  display: flex;
-}
+  .texto-encima{   
+    top: 15%;
+
+    }
 
 
-.compra {
-  margin-left: 10px;
-  margin-right: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
-  margin-top: 100px;
-  justify-content: center;
-}
-
-.terminar-compra{
-  display: flex;
-  justify-content: center;
+  
 }
 
 
