@@ -256,17 +256,30 @@ width: 100%;
     margin-right: 20px;
   }
 
-  .carrito {
-    left: 75%;
+  .carrito2 {
+    left: 80%;
     margin-left: 20px;
     margin-right: 20px;
 
   }
 
-  .usuario {
-    left: 80%;
-    margin-left: 20px;
-    margin-right: 20px;
+  .mujer {
+    display: none;
+
+
+  }
+
+  .hombre {
+    display: none;
+
+
+
+  }
+
+
+  .winter {
+
+    right: 35%;
 
   }
 
@@ -276,6 +289,16 @@ width: 100%;
 
   .wpp {
     margin-bottom: 10px;
+  }
+
+  .compra {
+    margin-left: 10px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    justify-content: center;
   }
 
 
@@ -309,6 +332,22 @@ width: 100%;
 .caracteristicas {
   justify-content: space-around;
   display: flex;
+}
+
+
+.compra {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.terminar-compra{
+  display: flex;
+  justify-content: center;
 }
 
 

@@ -73,32 +73,45 @@
 
         </main>
 
-            <div class="sections" style="margin-top: 300px; margin-bottom: 300px;">
-                <button class="carrito btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#myModal"></button>
+            <div class="compra">
+
+                <h1>Datos</h1>
+                <input type="text" name="nombre" placeholder="Nombre" style="margin-bottom: 10px;">
+                <input type="text" name="apellido" placeholder="Apellido" style="margin-bottom: 10px;">
+                <input type="email" name="email" id="email" placeholder="Email" style="margin-bottom: 10px;">
+                <div id="error" style="display: none;">Correo electrónico inválido</div>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha de nacimiento" style="margin-bottom: 10px;">
+                <select name="metodo" style="margin-bottom: 10px;" >
+                <option value="">Selecciona tu metodo de pago</option>
+                <option value="">Credito</option>
+                <option value="">Debito</option>
+                </select>
+                <input type="text" name="codigo" placeholder="ingresa el codigo de la tarjeta" style="margin-bottom: 10px;">
+                <input type="text" name="apellido" placeholder="ingresa el codigo de seguridad de la tarjeta (los 3 digitos de la parte posterior)" style="margin-bottom: 10px;">
+                <select name="pais" id="pais" style="margin-bottom: 10px;">
+                <option value="">Selecciona tu país</option>
+                <option value="">Argentina</option>
+                <option value="">Brasil</option>
+                <option value="">Uruguay</option>
+                <option value="">Paraguay</option>
+                <option value="">Chile</option>
+                </select>
+
+                <select name="envio" id="envio" style="margin-bottom: 10px;">
+                    <option value="">Selecciona tu metodo de envio</option>
+                    <option value="">Retiro en sucursal mas cercana</option>
+                    <option value="">Envio por Correo Argentino ( en hasta 72hs habiles)</option>
+                    <option value="">Envio por Andreani ( en hasta 48hs habiles)</option>
+                </select>
+
+                <textarea name="mensaje" placeholder="Especifiaciones para la hora de la entrega a domicilio (en caso de haber elegido la opcion de correo)" style="margin-bottom: 10px;"></textarea>
+
+                <div class="terminar-compra">
+                    <a href="hombre.html"><button type="button" class="btn btn-dark " style="margin-top: 10px; margin-bottom: 10px;margin-right: 10px;">Seguir Comprando</button></a>
+                    <button type="button" class="btn btn-dark " style="margin-top: 10px; margin-bottom: 10px;margin-left: 10px;">Finalizar La Compra</button>
+                </div>
 
 
-                <div class="modal" id="myModal" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                    <div class="modal-content">
-
-                        <div class="modal-header">
-                        <h5 class="modal-title">Tus productos</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">                  
-                            <ul id="carrito2" class="list-group"></ul>
-                            <hr>
-                            <p class="text-right">Total: $<span id="total"></span></p>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button id="boton-vaciar" class="btn btn-dark">Vaciar carrito</button>
-                            <button id="boton-cerrar" type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
-
-                    </div>
-                    
 
             </div>
 
